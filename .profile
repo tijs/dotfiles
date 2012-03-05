@@ -13,4 +13,12 @@ VIRTUALENVWRAPPER_PYTHON="/usr/local/Cellar/python/2.7.2/bin/python"
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/share/python/virtualenvwrapper.sh
 
+# set default editor
 export EDITOR='/usr/bin/vim'
+
+# show current branch in prompt
+parse_git_branch() {
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \[\1\]/'
+}
+ 
+PS1='\[\033[01;37m\]\w\[\033[00;35m\]$(parse_git_branch)\[\033[00m\] \$ '
