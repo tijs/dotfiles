@@ -1,6 +1,10 @@
+PATH="/usr/local/bin:/usr/local/sbin:$PATH" # brew /usr/local path is default
 PATH="/usr/local/Cellar/python/2.7.2/bin:/usr/local/share/python:$PATH" # python packages
 PATH="/usr/local/mysql/bin:$PATH"
 PATH="/usr/local/Cellar/ruby/1.9.3-p0/bin:$PATH" # ruby gems
+
+# use non-default postgres
+PATH=/Library/PostgreSQL/9.1/bin:$PATH
 
 # gettext fix
 PATH="/usr/local/Cellar/gettext/0.18.1.1/bin:$PATH" 
