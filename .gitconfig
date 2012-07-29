@@ -1,3 +1,24 @@
 [user]
-	name = Tijs
-	email = hello@tijs.org
+	name = Tijs Teulings
+	email = tijs@automatique.nl
+
+[credential]
+	helper = osxkeychain
+
+[alias]
+    ci = commit -am
+    co = checkout
+    st = status -a
+
+[apply]
+    whitespace = strip
+
+[diff]
+    color = auto
+    rename = copy
+
+[pager]
+    color = true
+
+[status]
+    color = auto
