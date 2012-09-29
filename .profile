@@ -16,7 +16,7 @@ PATH="/Users/tijs/pear/bin:$PATH"
 export PATH
 
 # lion mysql fix
-export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/usr/local/mysql/lib"
+#export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/usr/local/mysql/lib"
 
 VIRTUALENVWRAPPER_PYTHON="/usr/local/Cellar/python/2.7.2/bin/python"
 export WORKON_HOME=$HOME/.virtualenvs
