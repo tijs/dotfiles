@@ -11,6 +11,7 @@ ZSH_THEME="af-magic"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias love="/Applications/love.app/Contents/MacOS/love"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -51,6 +52,6 @@ plugins=(git pip terminalapp sublime redis-cli python osx heroku github django b
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/Applications/adt-bundle-mac/sdk/platform-tools:/Users/tijs/pear/bin:/Users/tijs/projects/cakephp-1.3.14/cake/console:/usr/local/Cellar/gettext/0.18.1.1/bin:/Applications/Postgres.app/Contents/MacOS/bin:/usr/local/Cellar/ruby/1.9.3-p0/bin:/usr/local/mysql/bin:/usr/local/Cellar/python/2.7.2/bin:/usr/local/share/python:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/go/bin
+export PATH=/usr/local/share/npm/bin:/Applications/adt-bundle-mac/sdk/platform-tools:/Users/tijs/pear/bin:/Users/tijs/projects/cakephp-1.3.14/cake/console:/usr/local/Cellar/gettext/0.18.1.1/bin:/Applications/Postgres.app/Contents/MacOS/bin:/usr/local/Cellar/ruby/1.9.3-p0/bin:/usr/local/mysql/bin:/usr/local/Cellar/python/2.7.2/bin:/usr/local/share/python:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/go/bin
 
 export EDITOR=vi
